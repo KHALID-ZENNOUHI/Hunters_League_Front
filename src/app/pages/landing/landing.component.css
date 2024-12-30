@@ -1,0 +1,49 @@
+.sign-in-btn {
+    border: 1px solid #FAF3E0;
+    color: #FAF3E0;
+    text-transform: uppercase;
+    padding: 0.75rem 1.5rem;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.sign-in-btn:after {
+    content: '→';
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.sign-in-btn:hover {
+    background-color: #FAF3E0;
+    color: #000;
+}
+
+.sign-in-btn:hover:after {
+    transform: translateX(5px);
+}
+
+.hero-section-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    
+}
+
+.hero-title {
+    color: #FAF3E0;
+    font-size: 76px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    width: 100%;
+}
+
+.hero-section{
+    background-image: url('../../../assets/images/home_bg-scaled.jpeg');
+    background-size: cover;
+    background-position: center;
+}

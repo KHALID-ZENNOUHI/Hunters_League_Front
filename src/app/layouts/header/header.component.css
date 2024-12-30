@@ -1,0 +1,47 @@
+.custom-nav {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 1.5rem 0;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                url('/api/placeholder/1920/1080');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    color: #FAF3E0;
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.nav-link, .navbar-brand {
+    color: #FAF3E0 !important;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    padding: 0 !important;
+    margin: 0 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-right: 4rem;
+    padding: 0;
+}
+
+.nav-links-container {
+    margin-left: auto;  /* Push nav links to the right */
+}
